@@ -15,7 +15,7 @@ class Header extends Component {
             <div className="input-field inline">
                   <input placeholder="contraseña" id="contraseña_inline" type="password" />
             </div>
-            <a className="waves-effect waves-light btn blue " href="#">Iniciar sesión</a> 
+            <a className="waves-effect waves-light btn cyan " href="#">Iniciar sesión</a> 
           </center>
 
         </div>

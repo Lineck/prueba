@@ -5,7 +5,7 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-        <footer  className="page-footer white">
+        <footer  className="page-footer white  ">
    
             <div className="footer-copyright">
                 <div id="asd" className="container black-text">
