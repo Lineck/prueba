@@ -23,7 +23,7 @@ class Login extends Component {
                 
             </div>
             <div className="input-field inline">
-                    <input placeholder="contraseña" id="contraseña_inline" type="password" />
+                    <input placeholder="contraseña" id="contraseña_inline" type="password"  />
             </div>
             <a className="waves-effect waves-light btn cyan " href="/home">Iniciar sesión</a> 
             </center>
