@@ -5,13 +5,29 @@ import './Body.css';
 class Body extends Component {
   render() {
     return (
-        <div  id="hola"class="col s6 amber ">
-            <div  id="texto" class="container">
-                <p  class="white-text"> <i class="small material-icons">search</i> Sigue lo que te interesa.</p>
-                <p class="white-text"><i class="small material-icons">people</i> Entérate de lo que está hablando la gente.</p>
-                <p  class="white-text"><i class="small material-icons">cloud_done</i> Únete a la conversación.</p>
-                         
-            </div>       
+        <div  class="col s6 center-align">
+      
+            <p class="black-text"> <i class="small material-icons">search</i> Sigue lo que te interesa.</p>
+            <div class="input-field inline ">
+                <input id="email_inline" type="email" class="validate"/>
+                <label for="email_inline">Email</label>
+                
+            </div>
+
+        
+            
+            <div class="col s12">
+            
+                <a class="waves-effect waves-light btn amber " href="#">registrate</a> 
+            
+            </div>
+            <div class="col s12">
+            
+                <a class="waves-effect waves-light btn blue " href="#">registrate</a> 
+                
+            </div>
+     
+        
         </div>
       
     );
