@@ -1,20 +1,38 @@
 import React, { Component } from 'react';
 
+import  {Paper,Tabs,Tab,Typography  }from '@material-ui/core';
+
+
 import './Footer.css';
 
 class Footer extends Component {
   render() {
     return (
-        <footer  className="page-footer  blue-grey darken-4  ">
-   
-            <div className="footer-copyright">
-                <div id="asd" className="container white-text">
-                © 2014 Copyright Text
-                <a className="white-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
-            </div>
-         </footer>
-      
+           
+      <Paper className="footer">
+        <Tabs
+          value={0}
+          onChange={this.handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          centered
+        >
+        
+          
+
+          <Tab label="Item One" />
+          <Tab label="Item Two" />
+          <Tab label="Item Three" />
+
+
+        </Tabs>
+        <div>
+            <Typography className="text_footer" align="center" color="primary" >© 2014 Copyright Text</Typography>
+         
+          </div>
+      </Paper>
+
+
     );
   }
 }

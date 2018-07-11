@@ -1,14 +1,31 @@
-#hola{
-    min-height: 45vw;
-  }
+.iconos{
 
-  #texto{
-    margin-top: 15vw;
-  }
-  #registro{
-    margin-top: 9vw;
+    background-color:#1da1f2; 
+    padding: 0;
+     margin-bottom:6vh; 
 }
-p{
-  font-size: 1.5vw;
-  font-weight: bolder;
+.hola{
+    margin-top: 10vh;
+    height: 65vh; 
+   
+}
+.text_log{
+    margin-top: 10vh;
+    margin-left: 2vh;
+
+}
+.text2_log{
+    margin-top: 20vh;
+    margin-left: 25vh;
+    font-size: 20px;
+    font-weight:bolder; 
+}
+
+
+.text{
+
+    font-size: 20px;
+    font-weight:bolder;
+    color: white;
+
 }
