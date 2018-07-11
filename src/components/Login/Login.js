@@ -21,7 +21,7 @@ class Login extends Component {
     }
 
     login(){
-        console.log(this.state);
+        
 
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange= ()=> {
@@ -41,7 +41,7 @@ class Login extends Component {
 
             }
          }        
-         
+          //  xmlhttp.open("POST","../server/checklogin.php",true);
          xmlhttp.open("POST","http://localhost/build/server/checklogin.php",true);
          xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
          xmlhttp.send("email="+this.state.email+"&contrasenia="+this.state.contraseña);
